@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .formElement{
+            width: 300px;
+            height: 26px;
+            border-radius: 15px;
+            border-style: outset;
+            border-color: blueviolet                                                                                                    ;
+        }
+    </style>
+</head>
+    <body>
+        <fielset>
+    <form>
+        <h2>Student Registration Form</h2>
+        <form method="get">
+
+        <table border="1" width="50%">
+        <tr>
+            <td>
+               
+                <lable>Student name</lable>
+            </td>
+            <td>
+               <input name="txtname" type="text" value=""placeholder="Enter Name Here"/>
+           </td>
+        </tr>
+        <tr>
+            <td>
+        <label>password</label>
+            </td>
+        <td>
+        <input type="password" name="txtpass" value=""placeholder="Enter password Here"/>
+        </td>
+        </tr>
+        <tr>
+            <td>
+                <lable>Email Id</lable>
+            </td>
+            <td>
+                <input type="email" name="txtdob" value=""placeholder="Enter Email Here"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <lable>Bate of Birth</lable>
+            </td>
+            <td>
+                <input type="date" name="txtdob" value=""/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <lable>Birth Time</lable>
+            </td>
+            <td>
+                <input type="time" name="txttime" value=""/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Gender</label>
+            </td>
+            <td>
+            <input type="radio" value="male" name="gender"/><label>male</label>
+            <input type="radio" value="female" name="gender"/><label>famale</label>
+            <input type="radio" value="Trangender" name="gender"/><label>Trangender</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label> choose Location</label>
+            </td>
+            <td>
+                <input type="checkbox" name="chk1" value="patna"/><label>patna</label>
+                <input type="checkbox" name="chk2" value="jaipur"/><label>jaipur</label>
+                <input type="checkbox" name="chek3" value="Lakhnow"/><label>Lakhnow</label>
+                <input type="checkbox" name="chek4" value="Noida"/><label>Noida</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <lable>choose color</lable>
+            </td>
+            <td>
+                <input type="color" name="txtcolor"value=""/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <lable>Age</lable>
+            </td>
+            <td>
+                <input type="number" name="txtage" value=""placeholder="Enter Age Here" min="1" max="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <lable>Uplode Profile</lable>
+            </td>
+            <td>
+            <input type="file" name="txtfile" value=""/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <labe> Home Address</labe>
+            </td>
+            <td>
+                <select name="cty">
+                    <option>----------</option>
+                    <option value="IND">India</option>
+                    <option value="CHI">China</option>
+                    <option value="BHU">Bhutan</option>
+                    <option value="IRAN">Iran</option>
+                    <option value="IRQ">Iraq</option>
+                    <option Selected value="JP">japan</option>
+                    <option value="SK">South Korea</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="button" value="Simple button" name="btn1"/>
+                <input type="submit" value="Submit" name="btn2"/>
+                <input type="reset" value="Reset" name="btn3"/>
+            </td>
+        </tr>
+       
+    </table>
+</fieldest>
+    </form>
+</body>
+</html>

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+<body>
+    <center>
+    
+         <legend><h2>Student Registration Form</h2></legend>
+     
+          <fieldset style="width:700px" >
+            
+          <Form method="get">
+
+              <table>
+            <tr>
+                <td>
+                  <label> First Name</label>
+                </td>
+                <td>
+                  <input type="text" name="txtname" value="" placeholder="First name"/><label> (Max 50 Characters Allowed)</label><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Last Name</label>
+                </td>
+                <td>
+                    <input type="text" name="txtname" value="" placeholder="Last name"/><label> (Max 50 Character Allowed)</label><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Email ID</label>
+                </td>
+                <td>
+                    <input type="email" name="txtemail" value=""placeholder="Enter Email Id Here"><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Mobil Number</label>
+                </td>
+                <td>
+                    <input typr="number" name="number" value=""placeholder="92291xxxx"><labe> (10 Digit Allowed)</labe><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Gender</label>
+                </td>
+                <td>
+                    <input type="radio" value="Male" name="gender"/><label>Male</label>
+                    <input type="radio" value="Female" name="gender"/><labe>Female</labe><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label> Date of Birth(DOB)</label>
+                </td>
+                <td>
+                    <input type="date" name="txtdob" value=""/><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Address</label>
+                </td>
+                <td>
+                    <textarea name="txtaddress" cols="30" row="10"></textarea><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>City</label>
+                </td>
+                <td>
+                   <input type="text" name="txtcity" value=""placeholder="patna"/><label> (Max 50 Characters Allowed)</label><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Pin Code</label>
+                </td>
+                <td>
+                    <input type="text" name="txtpin" value=""placeholder="800011"/><label> (Max 6 Characters Allowed)</label><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>State</label>
+                </td>
+                <td>
+                    <input type="text" name="txtState" value=""placeholder="Bihar"/><label> (Max 50 Characters Allowed)</label><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Country</label>
+                </td>
+                <td>
+                    <input type="text" name="txtCountry" value=""placeholder="Country"/><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Hobbies</label>
+                </td>
+                <td>
+                <input type="checkbox" name="chck1" value="Drawing"/><label>Drawing</label>
+                <input type="checkbox" name="chck2" value="singing"/><label>singing</label>
+                <input type="checkbox" name="chck3" value="Dancing"/><label>Dancing</label>
+                <input type="checkbox" name="chck4" value="Sketching"/><label>Sketching</label><br><br>
+            </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                 <input type="checkbox" name="chck4" value="other"/><label>other</label>
+                <input type="text" name="txtname" value=""placeholder="Ex-Teaching"/><label> (Max 50 Characters Allowed) </label><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Qualification</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="chck1" value="High School(10)"/><label>High School(10th)</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="checkbox" name="chck2" value="Higher School(12)"/><label>Higher School(12th)</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="checkbox" name="chck1" value="Graduation(Bachelors)"/><label>Graduation(Bachelors)</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="checkbox" name="chck1" value="Post Graduation"/><label>Post Graduation</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="checkbox" name="chck1" value="PHD"/><label>PHD</label><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="radio" name="Courses Applied for" value="BCA(Bachelor of Computer applications)"/><label>BCA(Bachelor of Computer applications)</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="radio" name="Courses Applied for" value="B.Com(Bachelor of Commerce)"/><label>B.Com(Bachelor of Commerce)</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Course sApplied For</label>
+                </td>
+                <td>
+                    <input type="radio" name="Courses Applied for" value="B.Sc(Bachelor of Sciense)"/><label>B.Sc(Bachelor of Sciense)</label>
+                </td>
+            </tr>
+            <tr>
+            <td></td>
+                <td>
+                  <input type="radio" name="Courses Applied for" value="BA(Bachelor of Arts)"/><label>BA(Bachelor of Arts)</label>
+               </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="radio" name="Courses Applied for" value="MCA(Master of Computer Applications)"/><label>MCA(Master of Computer Applications)</label><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Submit"/>
+                    <input type="reset" value="Reset"/>
+                </td>
+            </tr>
+        </form>
+          </fieldset>
+
+        </table>
+    </center>
+</body>
+</html>
