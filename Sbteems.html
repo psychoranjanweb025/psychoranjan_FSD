@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SBTE Dummy Portal</title>
+    <link rel="stylesheet" href="Sbte.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+     <style>
+        *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f2f4f8;
+}
+/* Navigation bar container */
+.navbar {
+  background-color: #1a237e; /* Deep blue background matching the banner */
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+}
+
+/* Student Service Request Button */
+.service-request-btn {
+  display: inline-block;
+  background-color: transparent;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 16px;
+  border: 1px solid #3f51b5; /* Lighter blue border outline */
+  border-radius: 4px; /* Slight rounded corners */
+  transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.service-request-btn:hover {
+  background-color: #3f51b5;
+  border-color: #ffffff;
+  cursor: pointer;
+}
+
+
+.main-container{
+    display:flex;
+    justify-content:space-between;
+    gap:20px;
+    padding:20px;
+}
+
+.box{
+    background:rgb(255, 255, 255);
+    border:1px solid #ccc;
+    border-radius:8px;
+    width:32%;
+    padding:15px;
+    min-height:350px;
+}
+.box h2{
+    background:#283593;
+    color:rgb(255, 255, 255);
+    padding:10px;
+    text-align:center;
+    margin:-15px -15px 15px -15px;
+    border-radius:8px 8px 0 0;
+}
+
+
+.helpdesk{
+    margin-top:20px;
+    border-top:2px solid #ddd;
+    padding-top:10px;
+}
+
+.helpdesk h3{
+    color:green;
+    margin-bottom:10px;
+}
+
+.login-box input{
+    width:100%;
+    padding:10px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+.login-box button{
+    width:100%;
+    padding:10px;
+    background:#5c6bc0;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.login-box button:hover{
+    background:#3949ab;
+}
+
+.links{
+    margin-top:15px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.links a{
+    text-decoration:none;
+    color:#283593;
+    font-size:14px;
+}
+
+footer{
+    background:#283593;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
+     </style>
+</head>
+<body>
+
+    <header>
+       <img src="sbtebanner.png" width="100%"/>
+         
+    </header>
+
+         <nav class="navbar">
+            <a href="#" class="service-request-btn">Student Service Request</a>
+         </nav>
+    <div class="main-container">
+   
+        <!-- Notices -->
+        <div class="box">
+            <h2>Notices</h2>
+            <marquee direction="up" height="120" style="color: red;">
+            <p>Elective Paper Update Portal has been opened for Semester-V.</p>
+            <p>Semester Enrollment Portal has been opened for Semester-III.</p>
+            </marquee>
+        </div>
+
+        <!-- Welcome Section -->
+        <div class="box">
+            <h2>SBTE WELCOMES YOU</h2>
+            <p>
+               The State Board of Technical Education (SBTE), Patna, Bihar, is responsible for evaluation and certification of six-semester Diploma Courses of all the Polytechnic Institutions affiliated to the SBTE Bihar. It has been constituted vide govt. order no. 75/Dir dated 31st May, 1955 under the Science, Technology and Technical Education Department, Government of Bihar.
+
+
+            </p>
+
+            <div class="helpdesk">
+                <h3>HELPDESK CONTACTS</h3>
+                <p>Contact: +91-22-20876123</p>
+                <p>Email: SBIEPAY@SBI.CO.IN</p>
+            </div>
+        </div>
+
+        <!-- Login -->
+        <div class="box login-box">
+            <h2>SBTE Integrated Services Portal</h2>
+
+            <input type="text" placeholder="User ID">
+            <input type="password" placeholder="Password">
+            <input type="text" placeholder="Captcha">
+
+            <button>Login</button>
+
+            <div class="links">
+                <a href="#">Register Student</a>
+                <a href="#">Forgot Password?</a>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        Copyright © All Rights Reserved. SBTE Bihar
+    </footer>
+
+</body>
+</html>
